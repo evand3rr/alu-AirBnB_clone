@@ -50,6 +50,7 @@ class BaseModel:
         """
         self.updated_at = datetime.now()
         models.storage.save()
+        print("OK")  # <- Only if explicitly required
 
     def to_dict(self):
         """
