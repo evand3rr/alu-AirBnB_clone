@@ -32,4 +32,8 @@ Installing
 You will need to clone the repository of the project from Github. This will contain the simple shell program and all of its dependencies.
 
 git clone https://evand3rr/alu-AirBnB_clone.git
+
+After cloning the repository, you will find a folder called alu-AirBnB_clone. In here there will be several files that allow the program to work.
+
+
 Evander Manna e.manna@alustudent.com
