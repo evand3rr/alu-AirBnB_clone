@@ -6,6 +6,7 @@ import uuid
 import models
 from datetime import datetime
 
+
 class BaseModel:
     """
     BaseModel class
@@ -34,7 +35,6 @@ class BaseModel:
             self.updated_at = datetime.now()
             models.storage.new(self)
 
-
     def __str__(self):
         """
         Returns a string representation of the BaseModel instance,
@@ -61,4 +61,5 @@ class BaseModel:
         for key, value in new_dict.items():
             if isinstance(value, datetime):
                 new_dict[key] = value.isoformat()
+                
         return new_dict
