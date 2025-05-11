@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """City class module."""
 
@@ -10,4 +9,3 @@ class City(BaseModel):
 
     state_id = ""
     name = ""
-    
