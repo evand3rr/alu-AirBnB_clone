@@ -61,5 +61,4 @@ class BaseModel:
         for key, value in new_dict.items():
             if isinstance(value, datetime):
                 new_dict[key] = value.isoformat()
-                
         return new_dict
